@@ -45,4 +45,12 @@ path = "/Users/Himangshu/Desktop/AprioriDataset/transaction.mat"
 pathItemsets = "/Users/Himangshu/Desktop/AprioriDataset/frequentitemsets.txt"
 pathRules = "/Users/Himangshu/Desktop/AprioriDataset/rules.txt"
 
+The Original Question for the Code Above:
 
+Given transaction.mat, which is a 1000*50 matrix, where each row represents a trans-
+action while each column means an item, if item i exist in the transact j, then Tij = 1,
+else Tij = 0. Implement the Apriori algorithm to nd the maximal frequent itemsets,
+then generate rules for apriori algorithm with minimum support min sup = 40% Plot
+the results including item sets and rules. Name your le p03.extension (R or matlab or
+python). The First line of your code should be a variable named path where you store
+the path to the dataset.
